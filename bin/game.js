@@ -144,65 +144,43 @@ engine.addEntity(concreteWall5)
 concreteWall5.setParent(_scene)
 concreteWall5.addComponentOrReplace(gltfShape4)
 const transform12 = new Transform({
-  position: new Vector3(14.006625175476074, 0, 0.10168077796697617),
+  position: new Vector3(13.966602325439453, 0, 0.10168083757162094),
   rotation: new Quaternion(-4.293549023259846e-15, -5.960464477539063e-8, 1.0578560596941067e-15, 1),
-  scale: new Vector3(1.6403287649154663, 1, 0.009999936446547508)
+  scale: new Vector3(6.007200241088867, 1, 0.009999935515224934)
 })
 concreteWall5.addComponentOrReplace(transform12)
-
-const windowRedLarge3 = new Entity('windowRedLarge3')
-engine.addEntity(windowRedLarge3)
-windowRedLarge3.setParent(_scene)
-windowRedLarge3.addComponentOrReplace(gltfShape3)
-const transform13 = new Transform({
-  position: new Vector3(10.840898513793945, 0, 0.17222751677036285),
-  rotation: new Quaternion(2.1770622922413687e-15, -5.960464477539063e-8, 2.4641827444380534e-15, -1),
-  scale: new Vector3(2.6349358558654785, 1, 0.00999988242983818)
-})
-windowRedLarge3.addComponentOrReplace(transform13)
 
 const doorframeRed3 = new Entity('doorframeRed3')
 engine.addEntity(doorframeRed3)
 doorframeRed3.setParent(_scene)
 doorframeRed3.addComponentOrReplace(gltfShape2)
-const transform14 = new Transform({
+const transform13 = new Transform({
   position: new Vector3(2.0102710723876953, 0, 0.3301240801811218),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-doorframeRed3.addComponentOrReplace(transform14)
-
-const concreteWall6 = new Entity('concreteWall6')
-engine.addEntity(concreteWall6)
-concreteWall6.setParent(_scene)
-concreteWall6.addComponentOrReplace(gltfShape4)
-const transform15 = new Transform({
-  position: new Vector3(5.646963596343994, 0, 0.11536042392253876),
-  rotation: new Quaternion(-4.293549023259846e-15, -5.960464477539063e-8, 1.0578560596941067e-15, 1),
-  scale: new Vector3(1.849988579750061, 1, 0.009999936446547508)
-})
-concreteWall6.addComponentOrReplace(transform15)
+doorframeRed3.addComponentOrReplace(transform13)
 
 const concreteWall7 = new Entity('concreteWall7')
 engine.addEntity(concreteWall7)
 concreteWall7.setParent(_scene)
 concreteWall7.addComponentOrReplace(gltfShape4)
-const transform16 = new Transform({
+const transform14 = new Transform({
   position: new Vector3(0.011725745163857937, 0, 0.22368335723876953),
   rotation: new Quaternion(-8.883357137184304e-15, 0.7071067690849304, -8.429368847373553e-8, 0.70710688829422),
   scale: new Vector3(7.751084327697754, 1, 0.009999936446547508)
 })
-concreteWall7.addComponentOrReplace(transform16)
+concreteWall7.addComponentOrReplace(transform14)
 
 const nft3 = new Entity('nft3')
 engine.addEntity(nft3)
 nft3.setParent(_scene)
-const transform17 = new Transform({
+const transform15 = new Transform({
   position: new Vector3(4.41091251373291, 2.573636531829834, 16),
   rotation: new Quaternion(-1.276273076615932e-14, 1, -1.1920928955078125e-7, 5.960464477539063e-8),
   scale: new Vector3(6.9036946296691895, 4.673500061035156, 0.14644508063793182)
 })
-nft3.addComponentOrReplace(transform17)
+nft3.addComponentOrReplace(transform15)
 const nftShape2 = new NFTShape("ethereum://0x2a187453064356c898cae034eaed119e1663acb8/16126648860995317394878828010027357856923050845760655456955720934373373059274")
 nftShape2.withCollisions = true
 nftShape2.isPointerBlocker = true
@@ -213,12 +191,12 @@ nft3.addComponentOrReplace(nftShape2)
 const nft4 = new Entity('nft4')
 engine.addEntity(nft4)
 nft4.setParent(_scene)
-const transform18 = new Transform({
+const transform16 = new Transform({
   position: new Vector3(3.7697958946228027, 2.2099409103393555, 0.15614891052246094),
   rotation: new Quaternion(-7.872085348490342e-15, 1, -1.1920928955078125e-7, 4.470348358154297e-8),
   scale: new Vector3(3.340019702911377, 3.3159892559051514, 1.0000008344650269)
 })
-nft4.addComponentOrReplace(transform18)
+nft4.addComponentOrReplace(transform16)
 const nftShape3 = new NFTShape("ethereum://0x2a46f2ffd99e19a89476e2f62270e0a35bbf0756/18165")
 nftShape3.withCollisions = true
 nftShape3.isPointerBlocker = true
@@ -229,12 +207,12 @@ nft4.addComponentOrReplace(nftShape3)
 const nft5 = new Entity('nft5')
 engine.addEntity(nft5)
 nft5.setParent(_scene)
-const transform19 = new Transform({
+const transform17 = new Transform({
   position: new Vector3(12.436782836914062, 2.1711227893829346, 0.18123385310173035),
   rotation: new Quaternion(-4.9758925075465456e-15, -1, 1.1920923981278975e-7, -2.0116567611694336e-7),
   scale: new Vector3(3.8614468574523926, 3.4006271362304688, 1)
 })
-nft5.addComponentOrReplace(transform19)
+nft5.addComponentOrReplace(transform17)
 const nftShape4 = new NFTShape("ethereum://0x2a46f2ffd99e19a89476e2f62270e0a35bbf0756/27469")
 nftShape4.withCollisions = true
 nftShape4.isPointerBlocker = true
@@ -245,12 +223,12 @@ nft5.addComponentOrReplace(nftShape4)
 const roofGreyEdgesSmall = new Entity('roofGreyEdgesSmall')
 engine.addEntity(roofGreyEdgesSmall)
 roofGreyEdgesSmall.setParent(_scene)
-const transform20 = new Transform({
+const transform18 = new Transform({
   position: new Vector3(16, 0, 16),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(8, 1, 8.000003814697266)
 })
-roofGreyEdgesSmall.addComponentOrReplace(transform20)
+roofGreyEdgesSmall.addComponentOrReplace(transform18)
 const gltfShape5 = new GLTFShape("2de22a6b3d2d1a3e65d2bdb8967f122f02bfd97d7aa67216a2c89f5eacf39599/GreyRoof_4Edges_Small.glb")
 gltfShape5.withCollisions = true
 gltfShape5.isPointerBlocker = true
@@ -260,12 +238,12 @@ roofGreyEdgesSmall.addComponentOrReplace(gltfShape5)
 const nft2 = new Entity('nft2')
 engine.addEntity(nft2)
 nft2.setParent(_scene)
-const transform21 = new Transform({
+const transform19 = new Transform({
   position: new Vector3(4.426339626312256, 2.1105079650878906, 15.940812110900879),
   rotation: new Quaternion(-1.2920801513677076e-15, 2.2351741790771484e-8, -2.856009597926052e-15, -1),
   scale: new Vector3(4.5000152587890625, 4, 1.000003695487976)
 })
-nft2.addComponentOrReplace(transform21)
+nft2.addComponentOrReplace(transform19)
 const nftShape5 = new NFTShape("ethereum://0x60f80121c31a0d46b5279700f9df786054aa5ee5/385559")
 nftShape5.withCollisions = true
 nftShape5.isPointerBlocker = true
@@ -276,12 +254,12 @@ nft2.addComponentOrReplace(nftShape5)
 const nft6 = new Entity('nft6')
 engine.addEntity(nft6)
 nft6.setParent(_scene)
-const transform22 = new Transform({
+const transform20 = new Transform({
   position: new Vector3(14.671435356140137, 2.1769332885742188, 15.941231727600098),
   rotation: new Quaternion(1.0337657650478366e-14, 6.705522537231445e-8, 7.45057526785331e-9, -1),
   scale: new Vector3(2.2900469303131104, 2.187483787536621, 0.9999999403953552)
 })
-nft6.addComponentOrReplace(transform22)
+nft6.addComponentOrReplace(transform20)
 const nftShape6 = new NFTShape("ethereum://0x2a46f2ffd99e19a89476e2f62270e0a35bbf0756/28654")
 nftShape6.withCollisions = true
 nftShape6.isPointerBlocker = true
