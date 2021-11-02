@@ -42,7 +42,7 @@ const roundedStarlightRug = new Entity('roundedStarlightRug')
 engine.addEntity(roundedStarlightRug)
 roundedStarlightRug.setParent(_scene)
 const transform4 = new Transform({
-  position: new Vector3(7.5, 0, 7.5),
+  position: new Vector3(8, 0, 7.5),
   rotation: new Quaternion(1.1343739456546264e-15, 2.9802322387695312e-8, -2.6645352591003757e-15, 1),
   scale: new Vector3(1, 1, 1)
 })
@@ -117,7 +117,7 @@ const nft = new Entity('nft')
 engine.addEntity(nft)
 nft.setParent(_scene)
 const transform9 = new Transform({
-  position: new Vector3(12.042167663574219, 3.499999523162842, 15.245672225952148),
+  position: new Vector3(13.234013557434082, 3.499999523162842, 15.245672225952148),
   rotation: new Quaternion(3.7608867925764837e-23, -1.4901161193847656e-7, 1.7319906088757858e-14, 1),
   scale: new Vector3(5.000002384185791, 5, 1.0000008344650269)
 })
@@ -133,9 +133,9 @@ const nft2 = new Entity('nft2')
 engine.addEntity(nft2)
 nft2.setParent(_scene)
 const transform10 = new Transform({
-  position: new Vector3(4.063965797424316, 3.4745497703552246, 15.22726821899414),
+  position: new Vector3(2.7931768894195557, 3.4745497703552246, 15.22726821899414),
   rotation: new Quaternion(-7.83784319456464e-15, 0.0001688599440967664, -2.0128910691030732e-11, -1),
-  scale: new Vector3(4.674792289733887, 4.81174373626709, 1)
+  scale: new Vector3(5.428811550140381, 4.81174373626709, 1)
 })
 nft2.addComponentOrReplace(transform10)
 const nftShape2 = new NFTShape("ethereum://0x2a46f2ffd99e19a89476e2f62270e0a35bbf0756/18165")
